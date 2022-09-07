@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "SourceRegular";
+    font-style: normal;
+    font-weight: 400;
+    src: local("SourceRegular"),
+        url("/font/sourcesanspro.ttf") format("ttf"),
+}
+@font-face {
+    font-family: "SourceBold";
+    font-style: normal;
+    font-weight: 700;
+    src: local("SourceBold"),
+        url("/font/sourcesansprobold.ttf") format("ttf"),
+}
