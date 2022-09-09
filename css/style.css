@@ -832,11 +832,17 @@ background:  #F6D2B0;
 .advantages, .disadvantages {
     width: 50%;
 }
-.advantages p {
+.advantages li:nth-of-type(1) {
     margin-bottom: 10px;
     font-weight: 600;
 }
-.disadvantages p {
+.advantages li:nth-of-type(1)::before {
+  content: none;
+}
+.disadvantages li:nth-of-type(1)::before {
+  content: none;
+}
+.disadvantages li:nth-of-type(1) {
     margin-bottom: 10px;
     font-weight: 600;
 }
