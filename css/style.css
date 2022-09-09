@@ -1708,4 +1708,18 @@ h4 {
         width: 100%;
         flex-direction: row;
     }
+    h1 {
+        width: 70%;
+    }
+    .betting-sites-articles-container-top {
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .betting-sites-articles-container-bottom {
+    flex-wrap: wrap;
+}
+    .betting-sites {
+        width: 50% !important;
+        margin-bottom: 10px;
+    }
 }
