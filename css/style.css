@@ -99,17 +99,18 @@ header {
 .select-footer {
     width: 100%;
     position: absolute;
-    bottom:140%;
-    left: -700%;
+    bottom: 100%;
+    left: -388%;
     display: none;
     z-index: 2; 
 }
-.england-footer a:hover + .select-footer {
+.fotter-con .england-footer:hover + .select-footer {
     display: block;
 }
-.footer-bottom-top a:hover + .select-footer{
+.select-footer:hover{
     display: block;
 }
+
 .ireland:before{
     content: "";
     background: url(../img/ireland-flag-round-icon-256.png);
@@ -189,6 +190,14 @@ header {
     width: 25px;
     height: 25px;
     object-fit: contain;
+}
+.england-footer {
+    display: flex;
+    min-height: 25px;
+    min-width: 25px;
+    width: 100% !important;
+    height: 100% !important;
+    padding: 10px;
 }
 header .wrapper {
     display: flex;
@@ -1254,6 +1263,13 @@ color: #969393;
 }
 /*----------------- Max-width: 992px ----------------------------------------------*/
 @media (max-width: 992px) {
+    .table-free-bet-offers tr td button::before {
+        content: none;
+    }
+    .table-overflow.table-scroll {
+        height: auto;
+        overflow: hidden;
+    }
 .wrapper {
     padding: 0 50px;
 }
